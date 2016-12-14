@@ -6,3 +6,4 @@ v14
 Debug
 *.user
 Release
+/ProteinService/*.nupkg
