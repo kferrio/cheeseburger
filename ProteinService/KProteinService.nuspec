@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>KBF.ProteinService</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>KBF</authors>
+    <owners>KBF</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>KBF Protein Service</description>
+    <releaseNotes>first release!</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>protein service</tags>
+  </metadata>
+</package>

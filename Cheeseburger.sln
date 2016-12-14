@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cheeseburger", "Cheeseburge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cheeseburger.Tests", "Cheeseburger.Tests\Cheeseburger.Tests.csproj", "{706DD4F0-6272-4044-99F1-1AE6C695A41E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KProteinService", "ProteinService\KProteinService.csproj", "{2383B41C-0AAA-49D6-BBF2-CDC22F341B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodCalculus", "FoodCalculus\FoodCalculus.csproj", "{08767884-B0F4-49B7-BC09-5789B8FBA2F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{706DD4F0-6272-4044-99F1-1AE6C695A41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{706DD4F0-6272-4044-99F1-1AE6C695A41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{706DD4F0-6272-4044-99F1-1AE6C695A41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2383B41C-0AAA-49D6-BBF2-CDC22F341B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2383B41C-0AAA-49D6-BBF2-CDC22F341B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2383B41C-0AAA-49D6-BBF2-CDC22F341B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2383B41C-0AAA-49D6-BBF2-CDC22F341B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08767884-B0F4-49B7-BC09-5789B8FBA2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08767884-B0F4-49B7-BC09-5789B8FBA2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08767884-B0F4-49B7-BC09-5789B8FBA2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08767884-B0F4-49B7-BC09-5789B8FBA2F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
