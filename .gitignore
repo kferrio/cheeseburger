@@ -7,3 +7,5 @@ Debug
 *.user
 Release
 /ProteinService/*.nupkg
+/Cheeseburger/App_Data/Cheeseburger.Repository.CheeseburgerDbContext.mdf
+/Cheeseburger/App_Data/Cheeseburger.Repository.CheeseburgerDbContext_log.ldf

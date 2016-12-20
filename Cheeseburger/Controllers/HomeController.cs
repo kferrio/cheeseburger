@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using KProteinService;
+using Cheeseburger.Domain;
+using Cheeseburger.Service;
 
 namespace Cheeseburger.Controllers
 {
@@ -21,6 +23,22 @@ namespace Cheeseburger.Controllers
             //ProteinService ps = new ProteinService();
             var name = _ps.getProtein();
             var cals = _ps.getCalories();
+
+            ObjectService svc = new ObjectService();
+
+            List<TargetField> fields = new List<TargetField>();
+            fields.Add(new TargetField { Name = "field_1" });
+            fields.Add(new TargetField { Name = "field_2" });
+
+            TargetClass targetClass = new TargetClass
+            {
+                Name = "MyClass",
+                Fields = fields
+            };
+
+            svc.AddClass(targetClass);
+
+
 
             return View();
         }

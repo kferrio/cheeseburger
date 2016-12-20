@@ -282,6 +282,18 @@
     <Content Include="Scripts\jquery-3.1.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Cheeseburger.Repository\Cheeseburger.Repository.csproj">
+      <Project>{383e282e-afc9-458e-a8cc-33856763394b}</Project>
+      <Name>Cheeseburger.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cheeseburger.Service\Cheeseburger.Service.csproj">
+      <Project>{1c180b08-00c6-4d52-b695-c524fb6cf0c4}</Project>
+      <Name>Cheeseburger.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassLibrary1\Cheeseburger.Domain.csproj">
+      <Project>{6af244bd-48f4-4e14-8199-38b35f48d4fa}</Project>
+      <Name>Cheeseburger.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ProteinService\KProteinService.csproj">
       <Project>{2383b41c-0aaa-49d6-bbf2-cdc22f341b4f}</Project>
       <Name>KProteinService</Name>
